@@ -1,0 +1,14 @@
+<section class="d-flex mt-3 flex-column justify-content-center align-items-center">
+  <div class="card m-3 p-2">
+    <h3>Posición hombros: {{shoulderPosture.message}}</h3>
+    <h3>Posición cuello: {{neckPosture.message}}</h3>
+
+  </div>
+  <div class="video-container">
+      <video #video id="video" autoplay playsinline muted></video>
+      <canvas [ngClass]="{'red': warning}" #canvas id="canvas"></canvas>
+    </div>
+    
+
+</section>
+  

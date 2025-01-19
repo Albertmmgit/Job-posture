@@ -1,0 +1,46 @@
+.video-container {
+    position: relative;
+    width: fit-content;
+  }
+
+  video {
+    display: block;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+   
+  }
+canvas {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    pointer-events: none; 
+
+}
+
+.red {
+  border: 10px red solid;
+  
+}
+
+h3 {
+  color: white;
+}
+
+.card {
+  background: #BBD2EC;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 75%
+
+}
+
+
+
+
+
+
